@@ -1,0 +1,67 @@
+# Visual Studio 暫存檔案
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code 暫存檔案
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# 建構輸出
+bin/
+obj/
+
+# NuGet 套件
+*.nupkg
+# NuGet 套件資料夾
+packages/
+# 如果啟用了"套件還原"的話，忽略這些資料夾
+**/[Pp]ackages/*
+# 保留 packages.config，但不保留專案.lock.json
+!**/packages.config
+
+# 資料庫檔案
+*.mdf
+*.ldf
+*.ndf
+
+# SQL Server 檔案
+*.mssql
+*.sqlproj.user
+
+# 日誌檔
+*.log
+
+# 環境設定
+.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# IDE 與編輯器設定
+.idea/
+*.swp
+*.swo
+
+# 記憶體轉儲
+*.dmp
+
+# Docker 相關
+.docker/
+docker-compose.override.yml
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+.venv/
+venv/
+.pytest_cache/
+.__pycache__/
